@@ -511,6 +511,9 @@ section .row .column .inner img{
     flex: 100%;
   }
   /*mobile gnb*/
+  #mobile_close_btn{
+    display: block;
+  }
   input[type=checkbox]#gnbcheck:checked ~ #header #gnb{
     left: 0;
   }
